@@ -45,6 +45,7 @@ h2 {
 #elixirs a:link { color: #007e7e;}
 #elixirs a:visited { color: #333333;}
 #elixirs a:hover { background: #f88396; color: #0d5353;}
+#elixirs a:active { color: green;}
 
 #elixirs h2 {
   color: #000000;
@@ -112,6 +113,18 @@ body p a:visited { color: #333333; }
   background-repeat: repeat-x;
 }
 
+#elixirs h2{
+  color: black;
+}
+
+#elixirs h3{
+  color: #d12c47;
+}
+
+#elixirs{
+  line-height: 1;
+}
+
 .cd{
   font-style: italic;
 }
@@ -143,5 +156,12 @@ a:hover{
 #elixirs a:hover{
   background: #f88396;
   color: #0d5353;
+}
+
+#footer{
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
 }
 
