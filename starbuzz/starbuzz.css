@@ -34,7 +34,6 @@ body {
   padding:          15px;
   margin:           0px 10px 10px 10px;
   font-size:        90%;
-  clear:            left;
 }
 
 #allcontent{
@@ -54,12 +53,28 @@ body {
   vertical-align: top;
 }
 
-div#tableContainer{
+#award{
+  position: absolute;
+  top: 30px;
+  left: 365px;
+}
+
+#coupon{
+  position: fixed;
+  top: 300px;
+  left: -90px;
+}
+
+#coupon a, img{
+  border: none;
+}
+
+#tableContainer{
   display: table;
   border-spacing: 10px;
 }
 
-div#tableRow{
+#tableRow{
   display: table-row;
 }
 
