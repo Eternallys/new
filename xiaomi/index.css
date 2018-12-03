@@ -1,3 +1,7 @@
+body{
+  background-color: white;
+  margin: 0px auto;
+}
 .yemei {
   
   height: 40px;
@@ -7,7 +11,8 @@
     float：left;
     margin-right: auto;
     margin-left: auto;
-    line-height:40px;
+    line-height: 40px;
+    font-size: 12px;
   }
   
  
@@ -18,16 +23,47 @@
 
   .yemeiright{
     display:inline-block;
-    margin-left: 600px;
+    float: right;
   }
 
+  .car{
+    line-height: 40px;
+    float: right;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  .left{
+    float: left;
+    display: inline-block;
+    height: 40px
+    color: #b0b0b0;
+    background: #333;
+    font-size: 10px;
+    margin: auto 0px auto 100px;
+    line-height:40px;
+  }
+  .yemeiright{
+    margin: auto 100px; auto 900px;
+  }
 
   .logo{
-    margin-top:5px;
-    top:60px;
-  }
-  .car{
-    line-height:40px;
     display:inline-block;
-    
+    margin-top:10px;
+    margin-left:100px;
+    float:left;
   }
+  .text{
+    display:inline-block;
+    height:80px;
+    line-height: 80px;
+    margin-left: 26px;
+    color: #333;
+    font-size:16px;
+  }
+  .daohang{
+    display: inline-block;
+    margin-left:100px;
+    float:left;
+  }
+
+  
