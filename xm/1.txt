@@ -1,0 +1,97 @@
+    <div id="comment">
+      <div class="box-hd">
+        <h2 class="title">热评产品</h2>
+      </div>
+      <div class="box-bd">
+        <ul class="review-list">
+          <li class="review-item">
+            <div class="figure-img">
+              <a class="exposure">
+                <img src="">
+              </a>
+            </div>
+            <p class="review">外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最主要的是性价比高。附图，给客服妹子一个大...</p>
+            <p class="author">
+              来自于 酸小妞~！ 的评价
+              <span class="date" data-date="1488080684"></span>
+            </p>
+            <div class="info">
+              <h3 class="title">
+                <a href="http://www.mi.com/carair/">米家车载空气净化器(USB车充版)</a>
+              </h3>
+              <span class="sep">|</span>
+              <p class="price">
+                <span class="num">499</span>
+                元
+              </p>
+            </div>
+          </li>
+            <li class="review-item">
+              <div class="figure-img">
+                <a class="exposure">
+                  <img src="">
+                </a>
+              </div>
+              <p class="review">超级喜欢！小巧玲珑！音质完美！不知道为什么！只要是小米出的东西我都喜欢！那倒是因为那一句？？小米为发...</p>
+              <p calss="author">
+                来自于 田密 的评价
+                <span class="date" data-date="1460129880"></span>
+              </p>
+              <div class="info">
+                <h3 class="title">
+                  <a href="http://www.mi.com/carair/">小米随身蓝牙音箱</a>
+                </h3>
+                <span class="sep">|</span>
+                <p class="price">
+                  <span class="num">69</span>
+                  元
+                </p>
+              </div>
+            </li>
+            <li class="review-item">
+                <div class="figure-img">
+                  <a class="exposure">
+                    <img src="">
+                  </a>
+                </div>
+                <p class="review">包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，超爱五星！手机控制还是不太熟练，最主要是没有连接...</p>
+                <p calss="author">
+                  来自于 HZG 的评价
+                  <span class="date" data-date="1460293860"></span>
+                </p>
+                <div class="info">
+                  <h3 class="title">
+                    <a href="http://www.mi.com/carair/">米家压力IH电饭煲</a>
+                  </h3>
+                  <span class="sep">|</span>
+                  <p class="price">
+                    <span class="num">850</span>
+                    元
+                  </p>
+                </div>
+              </li>
+              <li class="review-item">
+                  <div class="figure-img">
+                    <a class="exposure">
+                      <img src="">
+                    </a>
+                  </div>
+                  <p class="review">东西真心不错，用过最好用的插线板，做工外观设计没得挑剔，3个USB接口很实用，充电快，建议在不包邮的应该在...</p>
+                  <p calss="author">
+                    来自于 yinyin19891117 的评价
+                    <span class="date" data-date="1432613940"></span>
+                  </p>
+                  <div class="info">
+                    <h3 class="title">
+                      <a href="http://www.mi.com/carair/">小米插线板</a>
+                    </h3>
+                    <span class="sep">|</span>
+                    <p class="price">
+                      <span class="num">49</span>
+                      元
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
