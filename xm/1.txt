@@ -95,3 +95,129 @@
               </ul>
             </div>
           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content">
+  <div class="box-hd">
+    <h2 class="title">内容</h2>
+  </div>
+  <div class="box-bd">
+    <ul class="content-list">
+      <li class="content-item">
+        <h2 class="title">图书</h2>
+        <div class="xm-carousel">
+          <ul class="item-list">
+            <li>
+              <h4 class="name">
+                <a href="http://www.duokan.com/book/120800">哈利波特与被诅咒的孩子</a>
+              </h4>
+              <p class="desc">
+                <a href="http://www.duokan.com/book/120800">"哈利波特"第八个故事中文版震撼来袭！特别彩排版剧本</a>
+              </p>
+              <p class="price">
+                <a href="http://www.duokan.com/book/120800">29.37元</a>
+              </p>
+              <div class="figure">
+                <a href="http://www.duokan.com/book/120800">
+                  <img src="">
+                </a>
+              </div>
+            </li>
+            <li class="content-item">
+                <h2 class="title">MIUI 主题</h2>
+                <div class="xm-carousel">
+                  <ul class="item-list">
+                    <li>
+                      <h4 class="name">
+                        <a href="http://www.duokan.com/book/120800">熊本熊 酷MA萌</a>
+                      </h4>
+                      <p class="desc">
+                        <a href="http://www.duokan.com/book/120800">戳一戳、摸一摸，酷MA萌会在锁屏跟你亲密互动哦。</a>
+                      </p>
+                      <p class="price">
+                        <a href="http://www.duokan.com/book/120800"></a>
+                      </p>
+                      <div class="figure">
+                        <a href="http://www.duokan.com/book/120800">
+                          <img src="">
+                        </a>
+                      </div>
+                    </li>
+                    <li class="content-item">
+                        <h2 class="title">游戏</h2>
+                        <div class="xm-carousel">
+                          <ul class="item-list">
+                            <li>
+                              <h4 class="name">
+                                <a href="http://www.duokan.com/book/120800">非人学园</a>
+                              </h4>
+                              <p class="desc">
+                                <a href="http://www.duokan.com/book/120800">脑洞大开的二次元竞技手游</a>
+                              </p>
+                              <p class="price">
+                                <a href="http://www.duokan.com/book/120800"></a>
+                              </p>
+                              <div class="figure">
+                                <a href="http://www.duokan.com/book/120800">
+                                  <img src="">
+                                </a>
+                              </div>
+                            </li>
+                            <li class="content-item">
+                                <h2 class="title">应用</h2>
+                                <div class="xm-carousel">
+                                  <ul class="item-list">
+                                    <li>
+                                      <h4 class="name">
+                                        <a href="http://www.duokan.com/book/120800">2017金米奖</a>
+                                      </h4>
+                                      <p class="desc">
+                                        <a href="http://www.duokan.com/book/120800">最优秀的应用和游戏</a>
+                                      </p>
+                                      <p class="price">
+                                        <a href="http://www.duokan.com/book/120800"></a>
+                                      </p>
+                                      <div class="figure">
+                                        <a href="http://www.duokan.com/book/120800">
+                                          <img src="">
+                                        </a>
+                                      </div>
+                                    </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
