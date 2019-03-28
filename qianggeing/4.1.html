@@ -8,15 +8,26 @@
 </head>
 <body>
   <script>
+    function makePhrases() {
     var names = ['陈泽宇','杨克琴','郭懿婷','陈欣楚','杨心怡','吴倩雯','龚佳怡','李可新','陆心怡','张璐','潘梦情','田金丰','葛梦蝶','刘祎婷','沈宇峰','王达','李一鸣','徐志豪','孙睿褀','徐杨','濮徐杰','陈卓豪','王昱','林超凡','孔易飞','王诚礼','杨凤旗','王韫韬','吴策','顾强','刘通','薛宇成','俞浩','陈李鹏','徐超','顾伟豪','王钦鹏','孙权','潘铖','朱铭杨','张程','杨吉']
     var time = ['大清早','中午','下午','深更半夜']
     var locations = ['教室','操场','小卖部','厕所','宿舍']
     var actives = ['上课','打球','跑步','买吃的','上厕所','打游戏','睡觉']
-    var a = Math.floor (Math.random () * 42)
-    var b = Math.floor (Math.random () * 4)
-    var c = Math.floor (Math.random () * 5)
-    var d = Math.floor (Math.random () * 7)
-    document.write (names[a], time[b], locations[c], actives[d])
+
+    //var namesrannumb = Math.floor (Math.random () * names.length)
+    //var timerannumb = Math.floor (Math.random () * time.length)
+    //var locationsrannumb = Math.floor (Math.random () * locations.length)
+    //var activesrannumb = Math.floor (Math.random () * actives.length)
+
+    var phrase = chooseRandStrInArray(names) + "" + chooseRandStrInArray(time) + "" + chooseRandStrInArray(locations) + "" + chooseRandStrInArray(actives)
+    document.write(phrase)
+
+    function chooseRandStrInArray(array){
+      return array[Math.floor(Math.random() *array.length)]
+    }
+
+    }
+    makePhrases()
   </script>
 </body>
 </html>
