@@ -9,15 +9,27 @@
 <body>
   <script>
     var highest = 0
-    var xiang
-    var scores = [20,45,58,89,100,73,66,31,99]
+    var xiang = []
+    var j = 0
+    var scores = [20, 45, 58, 89, 100, 73, 66, 31, 99, 100, 34, 74, 100, 89, 22, 14, 100]
     for (var i=0;i<scores.length;i++){
       if (scores[i] > highest){
         highest = scores[i]
-        xiang = [i]
+        xiang = []
+        j = 0
+        xiang[j] = i
+      } else if (scores[i] == highest) {
+        j++
+        xiang[j] = i
       }
     }
-    document.write(highest+xiang)
+    // document.write("最大值是["+ highest +"] = " + xiang)
+    // if (xiang2 != -1) {
+    //   document.write("<br>最大值是["+ highest +"] = " + xiang2)
+    // }
+    for (var k=0;k < xiang.length; k++) {
+      document.write("最大值是["+ xiang[k] +"] = " + highest + "<br>")
+    }
   </script>
 </body>
 </html>

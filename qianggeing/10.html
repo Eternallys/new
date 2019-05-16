@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var str ='320585200109180079'
+    var birth = str.substring(6,14)
+    var month = birth.substring(4,6)
+    if (parseInt(month) < 10) {
+      month = month.charAt(1)
+    }
+    document.write('我的生日是：' 
+                    + birth.substring(0,4) + '年'
+                    + month + '月'
+                    + birth.substring(6,8) + '日'
+                    + '<br>')
+    var sex = parseInt(str.charAt(16))
+    if (sex % 2 === 0) {
+      document.write("性别女")
+    } else {
+      document.write("性别男")
+    }
+  </script>
+</body>
+</html>
