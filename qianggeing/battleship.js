@@ -52,13 +52,16 @@ fire: function(guess) {
 },
 
 isSunk: function(ship){
-  var console =0;
+  var count = 0;
   for (var i = 0; i < this.shipLength; i++){
-    if (ship.hits[i] !== "hit") {
-      return false;
+    if (ship.hits[i] === "hit") {
+      count++;
+    }
+    if (count > this.shipLength * 0.666){
+      return true;
     }
   }
-  return true;
+  return false;
 },
 
 generateShipLocations: function() {
