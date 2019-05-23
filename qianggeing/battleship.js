@@ -47,7 +47,7 @@ fire: function(guess) {
     }
   } 
   view.displayMiss(guess);
-  view.displayMessage("You missed.");
+  view.displayMessage("You missed."); 
   return false;
 },
 
@@ -56,10 +56,15 @@ isSunk: function(ship){
   for (var i = 0; i < this.shipLength; i++){
     if (ship.hits[i] === "hit") {
       count++;
+      for (var a = 0; a < this.shipLength; a++) {
+        var changecolor = document.getElementById(ship.locations[a])
+        view.displayHit(ship.locations[a])
+        changecolor.style.backgroundColor= 'green'
+      }
     }
-    if (count > this.shipLength * 0.666){
-      return true;
-    }
+  };
+  if (count > this.shipLength * 0.666){
+    return true;
   }
   return false;
 },
@@ -114,7 +119,6 @@ collision: function(locations) {
 
 function parseGuess(guess) {
 //var alphabet = ["A", "B", "C", "D", "E", "F", "G"];
-
   if (guess === null || guess.length !==2){
     alert("Oops, please enter a letter and a number on the board.");
   } else {
@@ -137,15 +141,15 @@ function parseGuess(guess) {
 var controller = {
   guesses: 0,
   processGuess: function(guess) {
-    var location = parseGuess(guess); 
-    if (location) { 
-      this.guesses++; 
-      var hit = model.fire(location); 
-      if (hit && model.shipsSunk === model.numShips) { 
-        view.displayMessage("You sank all my battleships, in " + this.guesses + " guesses"); 
-      } 
-    }   
-  } 
+    var location = parseGuess(guess);
+    if (location) {
+      this.guesses++;
+      var hit = model.fire(location);
+      if (hit && model.shipsSunk === model.numShips) {
+        view.displayMessage("You sank all my battleships, in " + this.guesses + " guesses");
+      }
+    }
+  }
 };
 
 function init() {
@@ -160,6 +164,7 @@ function init() {
     TD[i].onclick=text
   }
 }
+
 function text(event) {
   var guess = this.id;
   controller.processGuess(guess);
