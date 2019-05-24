@@ -29,7 +29,7 @@ var model = {
   shipLength: 3,
   ships: [ { locations: [0, 0, 0], hits: ["", "", ""] },
            { locations: [0, 0, 0], hits: ["", "", ""] },
-           { locations: [0, 0, 0], hits: ["", "", ""] } ],
+           { locations: [0, 0, 0], hits: ["", "", ""] }],
 
 fire: function(guess) {
   for (var i = 0; i < this.numShips; i++) {
@@ -60,10 +60,18 @@ isSunk: function(ship){
         var changecolor = document.getElementById(ship.locations[a])
         view.displayHit(ship.locations[a])
         changecolor.style.backgroundColor= 'green'
+        var newcolor = document.getElementById(event.target.id)
+        newcolor.style.backgroundColor= 'red'
       }
     }
   };
+  
   if (count > this.shipLength * 0.666){
+    for (var t = 0; t < this.shipLength; t++) {
+    var tdcolor = document.getElementById(ship.locations[t])
+    view.displayHit(ship.locations[t])
+    tdcolor.style.backgroundColor= 'red'
+    }
     return true;
   }
   return false;
