@@ -59,9 +59,8 @@ isSunk: function(ship){
       for (var a = 0; a < this.shipLength; a++) {
         var changecolor = document.getElementById(ship.locations[a])
         view.displayHit(ship.locations[a])
-        changecolor.style.backgroundColor= 'green'
         var newcolor = document.getElementById(event.target.id)
-        newcolor.style.backgroundColor= 'red'
+        newcolor.style.backgroundImage= "url('boom.png')"
       }
     }
   };
@@ -70,7 +69,7 @@ isSunk: function(ship){
     for (var t = 0; t < this.shipLength; t++) {
     var tdcolor = document.getElementById(ship.locations[t])
     view.displayHit(ship.locations[t])
-    tdcolor.style.backgroundColor= 'red'
+    tdcolor.style.backgroundImage= "url('boom.png')"
     }
     return true;
   }
@@ -154,7 +153,7 @@ var controller = {
       this.guesses++;
       var hit = model.fire(location);
       if (hit && model.shipsSunk === model.numShips) {
-        view.displayMessage("You sank all my battleships, in " + this.guesses + " guesses");
+        view.displayMessage("恭喜你，终于干翻了所有敌舰, 总共射了 " + this.guesses + " 次");
       }
     }
   }
